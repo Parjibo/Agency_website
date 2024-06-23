@@ -102,7 +102,7 @@ display: none;
 
 }
 
-@media(max-width: 670px) {
+@media(max-width: 500px) {
 
 	.bb{
     font-size: 40px;
@@ -141,14 +141,16 @@ display: none;
 	margin: 20px;
  }
 
- .fa-bars{
-	top: 30px;
-	right: 20px ;
-	float: right;
-	
-	}
-
 
 }
+@media(max-width: 687px) {
 
+	.fa-bars{
+		top: 30px;
+		right: 20px;
+		float: right;
+		
+		}
+
+}
 
