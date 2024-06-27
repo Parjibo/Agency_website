@@ -98,16 +98,18 @@ font-weight: bold;
 
 
 nav .fa{
+
 display: none;
 
 }
 
-@media(max-width: 878px) {
+@media(max-width: 870px) {
 
 	.bb{
     font-size: 40px;
     margin-left: 10px;
 	margin-bottom: 20px;
+
 	}
 
 	.img_{
