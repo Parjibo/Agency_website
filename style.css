@@ -1,87 +1,227 @@
-*{
-  padding: 0;
-  margin: 0;  
- transition: none !important;
-  animation: none !important;
+* {
+    padding: 0;
+    margin: 0;  
+    transition: none !important;
+    animation: none !important;
 }
 body, html {
     overflow-x: hidden;
 }
-body{
+body {
     font-family: sans-serif;
 }
 
-#nav-bar {
+#nav-bar{
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 10;
-  }
-  
-  .navbar {
+    z-index: 0;
+}
+
+.navbar {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     padding: 0 !important;
-  }
-  
-  .navbar-nav li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
     margin-right: 20px;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
     color: aliceblue !important;
     text-align: left;
-    float: right;
-  }
-  
-  .navbar-toggler {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    margin-top: 40px;
     outline: none !important;
-    color: aqua !important;
+    background-color: aqua !important;
     font-size: 20px !important;
-  }
-  .navbar_{
+}
+
+.navbar_ {
     color: aliceblue;
     font-size: 40px;
-    width: 100;
     font-style: italic;
-  }
+    margin-left: 20px;
+}
 
-
-  #banner{
-
+#banner {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: aliceblue;
     padding-top: 5%;
-  }
-  .best_{
+    text-align: center;
+    padding: 50px 20px;
+}
+.home_{
+    width: 80vh;
+}
+.best_ {
+    font-size: 30px;
+    font-family: bold;
+}
 
-  font-size: 30px;
-  font-weight: 600;
-  margin-top: 5%;
-  display: flex;
-  }
-  
-  
-  .play{
+
+.play {
     width: 45px;
     margin: 20px;
+}
 
-  }
-   .server{
+.server {
+    margin-top: 50px;
+}
 
-  margin-top: 50px;
+.tittle, .title_ {
+    margin-top: 30px;
+}
 
-
-   }
-   .tittle{
-     margin-top: 30px;
-
-   }
-   .tittle::before{
+.tittle::before, .title_::before {
     content: "";
-    background: #5f1782;
+    background-color: #5f1782;
     height: 5px;
     width: 350px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     transform: translateY(63px);
+}
 
+.title_::before {
+    background-color: blueviolet;
+    width: 400px;
+}
+
+.about-us {
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+.about_ {
+    margin-top: 50px;
+}
+
+ol li {
+    margin: 17px;
+}
+
+
+/*------------testimony----------*/
+
+
+.testimony_{
+
+border-left: 10px solid blue ;
+margin-top: 90px;
+margin-bottom: 50px;
+margin-left: 80px;
+
+}
+.testimony_ img{
+
+height: 60px;
+width: 60px;
+border-radius: 60%;
+
+}
+
+
+.user_d{
+
+display: inline-block;
+font-size: 12px;
+
+}
+/*-----------sociam media----------------*/
+
+.col img{
+
+display: inline-block;
+width: 70px;
+transition: 0.7s;
+margin-top: 50px;
+left: 90px;
+
+}
+.col a:hover img{
+    transform: translateY(-10px);
+}
+
+/*-------------footer section-----------*/
+
+#footer-section img{
+
+    height: 127px;
+    
+    }
+
+    #footer-section{
+        margin-top: 70px;
+        background-color: black;
+        }
+       .lo{
+        
+            width: 200px; /* Set the desired width */
+            height: auto; /* Preserve the aspect ratio */
+        }
+
+      .text11{
+        margin-top: 30px;
+       color: antiquewhite;
+       font-weight: bold;
+    }
+    .mee{
+
+     margin-left: 90px;
+
+    }
+   .adress{
+    margin-top: 30px;
+    color: aliceblue;
 
    }
-  
+  .mee .fa{
+    margin-right: 10px;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 20px;
+   }
+   input{
+    background-color: aliceblue;
+   }
+   .mee .form-control{
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  max-width: 250px;
+   }
+   .mee .btn-primary{
+
+    box-shadow: none;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+   }
+   hr{
+    background-color: white
+    ;
+   }
+   .coper-right{
+    text-align: center;
+   }
+
+
+
